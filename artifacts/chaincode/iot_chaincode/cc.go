@@ -8,6 +8,7 @@ import (
 	"time"
 
 	"github.com/hyperledger/fabric-chaincode-go/tree/main/shim"
+        sc "github.com/hyperledger/fabric-protos-go/tree/main/peer"
 )
 
 // SmartContract
