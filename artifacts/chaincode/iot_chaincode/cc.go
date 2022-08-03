@@ -7,15 +7,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hyperledger/fabric-chaincode-go/shim"
-	sc "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/hyperledger/fabric-chaincode-go/tree/main/shim"
 )
 
-//SmartContract
+// SmartContract
 type SmartContract struct {
 }
 
-//Value
+// Value
 type Value struct {
 	SensorID string `json:"sensorID"`
 	Temp     string `json:"temp"`
